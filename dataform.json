@@ -1,0 +1,8 @@
+{
+  "defaultSchema": "dataform",
+  "assertionSchema": "dataform_assertions",
+  "warehouse": "bigquery",
+  "defaultDatabase": "still-gravity-390803",
+  "defaultLocation": "asia-southeast1"
+}
+    
