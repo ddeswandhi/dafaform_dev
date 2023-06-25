@@ -1,8 +1,8 @@
 {
-  "defaultSchema": "dataform",
+  "defaultSchema": "ioh_poc",
   "assertionSchema": "dataform_assertions",
   "warehouse": "bigquery",
   "defaultDatabase": "still-gravity-390803",
-  "defaultLocation": "asia-southeast1"
+  "defaultLocation": "us-central1"
 }
     
