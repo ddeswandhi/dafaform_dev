@@ -1,0 +1,13 @@
+config { type: 'operations', dependencies: [], tags : ['scenario2']}
+
+INSERT INTO `ioh_poc`.`other_card`
+SELECT
+  `a`.`card_id`,
+  `a`.`disp_id`,
+  `b`.`account_id`,
+  `b`.`type`
+FROM `ioh_poc`.`card` AS `a`
+LEFT JOIN `ioh_poc`.`disp` AS `b`
+  ON `a`.`disp_id` = `b`.`disp_id`
+WHERE
+  `a`.`type` <> 'classic'
