@@ -1,4 +1,4 @@
-config { type: 'operations', dependencies: ['scenario1_run_data_1'], tags : ['scenario1']}
+config { type: 'operations', dependencies: ['scenario2_run_data_1'], tags : ['scenario2']}
 
 INSERT INTO `ioh_poc`.`loan_accum_by_district`
 WITH `account_1` AS (

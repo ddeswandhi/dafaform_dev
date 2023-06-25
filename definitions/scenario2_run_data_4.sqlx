@@ -1,4 +1,4 @@
-config { type: 'operations', dependencies: ['scenario1_run_data_2','scenario1_run_data_2'], tags : ['scenario1']}
+config { type: 'operations', dependencies: ['scenario2_run_data_2','scenario2_run_data_2'], tags : ['scenario2']}
 
 INSERT INTO `ioh_poc`.`summary_account`
 WITH `trans_1` AS (

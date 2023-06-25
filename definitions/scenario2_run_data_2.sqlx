@@ -1,4 +1,4 @@
-config { type: 'operations', dependencies: ['scenario1_run_data_1'], tags : ['scenario1']}
+config { type: 'operations', dependencies: ['scenario2_run_data_1'], tags : ['scenario2']}
 
 INSERT INTO `ioh_poc`.`trans_cond_for_other_crdt_crd_hldr`
 WITH `other_card` AS (

@@ -1,4 +1,4 @@
-config { type: 'operations', dependencies: [], tags : ['scenario1']}
+config { type: 'operations', dependencies: [], tags : ['scenario2']}
 
 INSERT INTO `ioh_poc`.`other_card`
 SELECT
